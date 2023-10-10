@@ -24,7 +24,7 @@ https://docs.google.com/document/d/1MPStlOFfvF9YWEx-0I1EwvWE9paKkhvFWyq7tRvcdc0/
 ## Инструкция по запуску 
 1. Склонируйте репозиторий с вашим приложением на свой локальный компьютер
    ```bash
-   git clone 
+   git clone https://github.com/DeLaVerrierr/TS-for-Bewise.ai.git
    cd app
 2. Отредактируйте файл docker-compose.yml в корне вашего проекта, чтобы настроить подключение к PostgreSQL базе данных в сервисе backend:
    - DATABASE_HOST

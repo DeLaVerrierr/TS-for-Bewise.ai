@@ -18,7 +18,8 @@ file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
 #Подключение к базе
-SQLALCHEMY_DATABASE_URI = "postgresql://postgres:Lilpeep228@localhost:5432/testps"
+#SQLALCHEMY_DATABASE_URI = "postgresql://postgres:Lilpeep228@localhost:5432/testps"
+SQLALCHEMY_DATABASE_URI = "postgresql://postgres:password@localhost:5432/testcrt"
 engine = create_engine(SQLALCHEMY_DATABASE_URI)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
